@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application\
+// TODO: Include packages needed for this application
 const { writeFileSync } = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
@@ -54,12 +54,13 @@ const questions = [
 },
 ]
 
-
+//This allows to return the prompt using inquirer with the array of questions above.
 const promptUser = () => {
   return inquirer.prompt(questions);
 };
 
 // TODO: Create a function to write README file
+//This functions logs all the anwsers so when everything is working properly and wrote it will display the message it was successfully wrote, otherwise you will catch a error.
 function writeToFile(fileName, answers) {
   try {
     writeFileSync(fileName, generateMarkdown(answers));
@@ -71,6 +72,7 @@ function writeToFile(fileName, answers) {
 }
 
 // TODO: Create a function to initialize app
+//This creates the PersonalReadme.md File with the awnsers.
 function init() {
     promptUser()
     .then((answers) => {

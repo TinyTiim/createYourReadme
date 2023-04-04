@@ -62,7 +62,7 @@ function renderLicenseSection(license) {
   }
 // TODO: Create a function to generate markdown for README
 
-
+//This function allows me to create the layout as well as putting the awnsers from index.js into the layout.
 function generateMarkdown(data) {
   const { title, link, description, installation, usage, credits, license, username, email } = data;
 

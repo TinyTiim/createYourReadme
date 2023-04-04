@@ -22,14 +22,6 @@ This project allows you to create your own personalized readme file, I thought t
 This can be very useful for anyone who does alot of projects, and needs a simple way to write a readme every time.
 
 
-    ![alt text](/images/screenshot.png)
-   
-
-
-
-    ![alt text](/images/screenshot2.png)
-   
-
 ## Credits
 
 ChatGPT
