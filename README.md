@@ -23,10 +23,10 @@ This can be very useful for anyone who does alot of projects, and needs a simple
 
 
  
+ ![alt text](/images/screenshot.png)
+   
 
-screenshot.PNG
-   
-   
+
 
 ## Credits
 
