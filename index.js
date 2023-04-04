@@ -74,7 +74,7 @@ function writeToFile(fileName, answers) {
 function init() {
     promptUser()
     .then((answers) => {
-    writeToFile('PersonalReadME.txt', answers);
+    writeToFile('PersonalReadME.md', answers);
   })
   .catch((error) => {
     console.error(error);

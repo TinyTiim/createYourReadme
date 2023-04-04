@@ -56,7 +56,7 @@ function renderLicenseSection(license) {
   if(!license) {
     return "";
   }
-  return `## License
+  return `
   This project is licensed under the ${license} license. 
   See the [LICENSE](./LICENSE) file for details.`;
   }
